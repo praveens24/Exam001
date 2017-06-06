@@ -38,7 +38,7 @@ HomePage.selectd("price-desc-rank");
 Thread.sleep(3000);
 HomePage.selectprod();
 String p=HomePage.productcontent();
-Assert.assertTrue(p.contains("Nikon D3X"), "Nikon D3X is not Found the Expected"); 
+Assert.assertTrue(p.contains("Nikon D3X"), "Nikon D3X is not Found As Expected"); 
   }
  
   @AfterMethod
